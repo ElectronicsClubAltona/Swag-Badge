@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name swag-badge-rescue)(type Legacy)(uri ${KIPRJMOD}/swag-badge-rescue.lib)(options "")(descr ""))
+  (lib (name SwagBadge)(type Legacy)(uri ${KIPRJMOD}/libs/SwagBadge.lib)(options "")(descr ""))
+)
