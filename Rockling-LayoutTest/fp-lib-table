@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RocklingLib)(type KiCad)(uri ${KIPRJMOD}/RocklingLib.pretty)(options "")(descr ""))
+)
