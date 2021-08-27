@@ -603,7 +603,7 @@ SDA
 Wire Wire Line
 	7000 1550 6550 1550
 Text Label 6550 1650 0    70   ~ 0
-RES
+RESET
 Wire Wire Line
 	7000 1650 6550 1650
 Text Label 6550 1750 0    70   ~ 0
