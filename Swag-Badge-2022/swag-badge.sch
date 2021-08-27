@@ -290,68 +290,6 @@ SCL
 Text Label 3900 3050 0    70   ~ 0
 SDA
 $Comp
-L swag-badge-rescue:Conn_01x01-Connector_Generic J8
-U 1 1 5F7DFB47
-P 2100 5800
-F 0 "J8" H 2018 5575 50  0000 C CNN
-F 1 "GPIO27/T7" H 2018 5666 50  0000 C CNN
-F 2 "SwagBadge:Edge_Pad_02" H 2100 5800 50  0001 C CNN
-F 3 "~" H 2100 5800 50  0001 C CNN
-	1    2100 5800
-	-1   0    0    1   
-$EndComp
-$Comp
-L swag-badge-rescue:Conn_01x01-Connector_Generic J9
-U 1 1 5F7E69C4
-P 2100 6200
-F 0 "J9" H 2018 5975 50  0000 C CNN
-F 1 "GPIO14/T6" H 2018 6066 50  0000 C CNN
-F 2 "SwagBadge:Edge_Pad_02" H 2100 6200 50  0001 C CNN
-F 3 "~" H 2100 6200 50  0001 C CNN
-	1    2100 6200
-	-1   0    0    1   
-$EndComp
-$Comp
-L swag-badge-rescue:Conn_01x01-Connector_Generic J10
-U 1 1 5F7E9BB8
-P 2100 6600
-F 0 "J10" H 2018 6375 50  0000 C CNN
-F 1 "GPIO15/T3" H 2018 6466 50  0000 C CNN
-F 2 "SwagBadge:Edge_Pad_02" H 2100 6600 50  0001 C CNN
-F 3 "~" H 2100 6600 50  0001 C CNN
-	1    2100 6600
-	-1   0    0    1   
-$EndComp
-$Comp
-L swag-badge-rescue:Conn_01x01-Connector_Generic J11
-U 1 1 5F7E9BBE
-P 2100 7000
-F 0 "J11" H 2018 6775 50  0000 C CNN
-F 1 "GPIO12/T5" H 2018 6866 50  0000 C CNN
-F 2 "SwagBadge:Edge_Pad_02" H 2100 7000 50  0001 C CNN
-F 3 "~" H 2100 7000 50  0001 C CNN
-	1    2100 7000
-	-1   0    0    1   
-$EndComp
-Text Label 2550 5800 2    70   ~ 0
-T7
-Text Label 2550 6200 2    70   ~ 0
-T6
-Wire Wire Line
-	2300 5800 2550 5800
-Wire Wire Line
-	2300 6200 2550 6200
-Text Label 2550 6600 2    70   ~ 0
-T3
-Text Label 2550 6600 2    70   ~ 0
-T3
-Wire Wire Line
-	2300 6600 2550 6600
-Text Label 2550 7000 2    70   ~ 0
-T5
-Wire Wire Line
-	2300 7000 2550 7000
-$Comp
 L swag-badge-rescue:MountingHole-Mechanical H5
 U 1 1 5F7DCF4D
 P 7750 2950
@@ -606,22 +544,6 @@ Text Label 1700 6750 2    70   ~ 0
 T4
 Text Label 1700 6850 2    70   ~ 0
 T3
-Wire Notes Line
-	1850 5300 2800 5300
-Wire Notes Line
-	2800 5300 2800 7100
-Wire Notes Line
-	2800 7100 1850 7100
-Wire Notes Line
-	1850 7100 1850 5300
-Text Notes 1800 5250 0    197  ~ 0
-NEEDS UPDATING
 Text Notes 5900 1150 0    197  ~ 0
 NEEDS UPDATING
-Text Notes 2700 6200 0    79   ~ 0
-This is now SCLK
-Text Notes 2700 5800 0    79   ~ 0
-This is now Slider1_01
-Text Notes 2700 6600 0    79   ~ 0
-This is now Slider2_02
 $EndSCHEMATC
