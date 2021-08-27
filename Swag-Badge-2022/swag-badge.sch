@@ -618,4 +618,10 @@ Text Notes 1800 5250 0    197  ~ 0
 NEEDS UPDATING
 Text Notes 5900 1150 0    197  ~ 0
 NEEDS UPDATING
+Text Notes 2700 6200 0    79   ~ 0
+This is now SCLK
+Text Notes 2700 5800 0    79   ~ 0
+This is now Slider1_01
+Text Notes 2700 6600 0    79   ~ 0
+This is now Slider2_02
 $EndSCHEMATC
