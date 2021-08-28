@@ -213,40 +213,6 @@ Wire Wire Line
 	1000 2000 1600 2000
 Wire Wire Line
 	1000 1900 1600 1900
-Text Label 1700 5950 2    70   ~ 0
-T7
-Text Label 1700 6050 2    70   ~ 0
-T5
-Wire Wire Line
-	1450 5950 1700 5950
-Wire Wire Line
-	1450 6050 1700 6050
-Wire Wire Line
-	1450 6850 1700 6850
-$Comp
-L swag-badge-rescue:Conn_01x02-Connector_Generic T1
-U 1 1 5F7E3B54
-P 1250 6050
-F 0 "T1" H 1168 5725 50  0000 C CNN
-F 1 "Touch_slider_01" H 1168 5816 50  0000 C CNN
-F 2 "SwagBadge:Touch_Slider_Clearanced" H 1250 6050 50  0001 C CNN
-F 3 "~" H 1250 6050 50  0001 C CNN
-	1    1250 6050
-	-1   0    0    1   
-$EndComp
-$Comp
-L swag-badge-rescue:Conn_01x02-Connector_Generic T2
-U 1 1 5F7E4758
-P 1250 6850
-F 0 "T2" H 1168 6525 50  0000 C CNN
-F 1 "Touch_slider_02" H 1168 6616 50  0000 C CNN
-F 2 "SwagBadge:Touch_Slider_Clearanced" H 1250 6850 50  0001 C CNN
-F 3 "~" H 1250 6850 50  0001 C CNN
-	1    1250 6850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1450 6750 1700 6750
 $Comp
 L swag-badge-rescue:GND-power #PWR0103
 U 1 1 5F7D9ED9
@@ -540,10 +506,74 @@ Text Label 2850 2600 2    70   ~ 0
 T4
 Wire Wire Line
 	2100 2600 2850 2600
-Text Label 1700 6750 2    70   ~ 0
-T4
-Text Label 1700 6850 2    70   ~ 0
-T3
 Text Notes 5900 1150 0    197  ~ 0
 NEEDS UPDATING
+$Comp
+L Connector_Generic:Conn_01x03 T3
+U 1 1 612A59C8
+P 2800 5850
+F 0 "T3" H 2880 5892 50  0000 L CNN
+F 1 "Touch_Slider_Left" H 2880 5801 50  0000 L CNN
+F 2 "SwagBadge:Touch_Slider_Long" H 2800 5850 50  0001 C CNN
+F 3 "~" H 2800 5850 50  0001 C CNN
+	1    2800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 T4
+U 1 1 612A6CF5
+P 2800 6550
+F 0 "T4" H 2880 6592 50  0000 L CNN
+F 1 "Touch_Slider_Right" H 2880 6501 50  0000 L CNN
+F 2 "SwagBadge:Touch_Slider_Long" H 2800 6550 50  0001 C CNN
+F 3 "~" H 2800 6550 50  0001 C CNN
+	1    2800 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5850 2400 5850
+Wire Wire Line
+	2600 5750 2400 5750
+Wire Wire Line
+	2600 5950 2400 5950
+$Comp
+L power:GND #PWR0101
+U 1 1 612BD7AB
+P 2400 6050
+F 0 "#PWR0101" H 2400 5800 50  0001 C CNN
+F 1 "GND" H 2405 5877 50  0000 C CNN
+F 2 "" H 2400 6050 50  0001 C CNN
+F 3 "" H 2400 6050 50  0001 C CNN
+	1    2400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 5950 2400 6050
+Text Label 2400 5750 0    50   ~ 0
+T5
+Text Label 2400 5850 0    50   ~ 0
+T7
+Text Label 2400 6550 0    50   ~ 0
+T3
+Text Label 2400 6450 0    50   ~ 0
+T4
+Wire Wire Line
+	2400 6650 2400 6750
+$Comp
+L power:GND #PWR0102
+U 1 1 612C3241
+P 2400 6750
+F 0 "#PWR0102" H 2400 6500 50  0001 C CNN
+F 1 "GND" H 2405 6577 50  0000 C CNN
+F 2 "" H 2400 6750 50  0001 C CNN
+F 3 "" H 2400 6750 50  0001 C CNN
+	1    2400 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6650 2400 6650
+Wire Wire Line
+	2600 6450 2400 6450
+Wire Wire Line
+	2600 6550 2400 6550
 $EndSCHEMATC
