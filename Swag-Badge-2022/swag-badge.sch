@@ -289,28 +289,6 @@ F 3 "" H 8350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwagBadge:SwagBadge_Logo L4
-U 1 1 5F827567
-P 8450 4900
-F 0 "L4" H 8000 5100 50  0000 C CNN
-F 1 "SwagBadge_Logo" H 8450 5100 50  0000 C CNN
-F 2 "SwagBadge:SwagBadge_Logo" H 8450 4750 50  0001 C CNN
-F 3 "" H 8450 4750 50  0001 C CNN
-	1    8450 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SwagBadge:Logo_LCA2021 L1
-U 1 1 5F7ECC4B
-P 8300 3500
-F 0 "L1" H 7950 3700 50  0000 C CNN
-F 1 "Logo_LCA2021" H 8300 3700 50  0000 C CNN
-F 2 "SwagBadge:Logo_LCA2021_05_Smaller" H 8300 3300 50  0001 C CNN
-F 3 "" H 8300 3300 50  0001 C CNN
-	1    8300 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x05_Counter_Clockwise P3
 U 1 1 61234CC2
 P 4450 4250
@@ -514,7 +492,7 @@ U 1 1 612A59C8
 P 2800 5850
 F 0 "T3" H 2880 5892 50  0000 L CNN
 F 1 "Touch_Slider_Left" H 2880 5801 50  0000 L CNN
-F 2 "SwagBadge:Touch_Slider_Long" H 2800 5850 50  0001 C CNN
+F 2 "SwagBadge:Touch_Slider_Long_02" H 2800 5850 50  0001 C CNN
 F 3 "~" H 2800 5850 50  0001 C CNN
 	1    2800 5850
 	1    0    0    -1  
@@ -525,7 +503,7 @@ U 1 1 612A6CF5
 P 2800 6550
 F 0 "T4" H 2880 6592 50  0000 L CNN
 F 1 "Touch_Slider_Right" H 2880 6501 50  0000 L CNN
-F 2 "SwagBadge:Touch_Slider_Long" H 2800 6550 50  0001 C CNN
+F 2 "SwagBadge:Touch_Slider_Long_02" H 2800 6550 50  0001 C CNN
 F 3 "~" H 2800 6550 50  0001 C CNN
 	1    2800 6550
 	1    0    0    -1  
@@ -576,4 +554,15 @@ Wire Wire Line
 	2600 6450 2400 6450
 Wire Wire Line
 	2600 6550 2400 6550
+$Comp
+L SwagBadge:Logo_LCA2021 L1
+U 1 1 5F7ECC4B
+P 8300 3500
+F 0 "L1" H 7950 3700 50  0000 C CNN
+F 1 "Logo_LCA2021" H 8300 3700 50  0000 C CNN
+F 2 "SwagBadge:Logo_LCA2021_05_Smaller" H 8300 3300 50  0001 C CNN
+F 3 "" H 8300 3300 50  0001 C CNN
+	1    8300 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
