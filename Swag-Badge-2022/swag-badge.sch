@@ -567,4 +567,6 @@ F 3 "~" H 4550 4200 50  0001 C CNN
 $EndComp
 Text Notes 2550 5300 0    197  ~ 0
 I have altered the SAO pinout. \nPray I do not alter it any further.
+Text Notes 1750 3750 0    394  ~ 0
+RESET BUTTON!!!!
 $EndSCHEMATC
