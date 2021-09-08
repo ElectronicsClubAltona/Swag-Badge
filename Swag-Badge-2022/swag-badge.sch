@@ -569,4 +569,55 @@ Text Notes 2550 5300 0    197  ~ 0
 I have altered the SAO pinout. \nPray I do not alter it any further.
 Text Notes 1750 3750 0    394  ~ 0
 RESET BUTTON!!!!
+$Comp
+L SwagBadge:1825910-6 SW?
+U 1 1 6184E5E1
+P 1450 4250
+F 0 "SW?" H 1450 4615 50  0000 C CNN
+F 1 "1825910-6" H 1450 4524 50  0000 C CNN
+F 2 "SwagBadge:SW_1825910-6-4" H 1450 4250 50  0001 L BNN
+F 3 "" H 1450 4250 50  0001 L BNN
+F 4 "1825910-6" H 1450 4250 50  0001 L BNN "Comment"
+F 5 "Single Pole - Single Throw" H 1450 4250 50  0001 L BNN "Configuration_Pole-Throw"
+F 6 "50 mA" H 1450 4250 50  0001 L BNN "Contact_Current_Rating"
+F 7 "Compliant" H 1450 4250 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 "Digi-Key" H 1450 4250 50  0001 C CNN "Supplier 1"
+F 9 "450-1650-ND" H 1450 4250 50  0001 C CNN "Supplier Part Number 1"
+F 10 "1825910-6" H 1450 4250 50  0001 C CNN "Manufacturer Part Number 1"
+	1    1450 4250
+	1    0    0    -1  
+$EndComp
+Text Label 700  4250 0    70   ~ 0
+EN
+Wire Wire Line
+	700  4250 950  4250
+Wire Wire Line
+	950  4250 950  4150
+Wire Wire Line
+	950  4150 1050 4150
+Wire Wire Line
+	1050 4350 950  4350
+Wire Wire Line
+	950  4350 950  4250
+Connection ~ 950  4250
+$Comp
+L swag-badge-rescue:GND-power #PWR?
+U 1 1 61857800
+P 2050 4500
+F 0 "#PWR?" H 2050 4250 50  0001 C CNN
+F 1 "GND" H 2055 4327 50  0000 C CNN
+F 2 "" H 2050 4500 50  0001 C CNN
+F 3 "" H 2050 4500 50  0001 C CNN
+	1    2050 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4150 2050 4150
+Wire Wire Line
+	2050 4150 2050 4350
+Wire Wire Line
+	2050 4350 1850 4350
+Wire Wire Line
+	2050 4350 2050 4500
+Connection ~ 2050 4350
 $EndSCHEMATC
