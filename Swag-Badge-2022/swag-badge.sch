@@ -90,7 +90,7 @@ GPIO5
 Text Label 2500 2000 2    70   Italic 0
 GPIO17
 Wire Wire Line
-	2100 2100 2500 2100
+	2100 2100 2850 2100
 Text Label 2500 2100 2    70   Italic 0
 GPIO16
 Text Label 2500 2200 2    70   Italic 0
@@ -299,10 +299,6 @@ F 3 "" H 6450 2150 50  0001 C CNN
 	1    6450 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 1350 6950 1350
-Wire Wire Line
-	6950 1350 6950 1100
 $Comp
 L power:+3.3V #PWR0108
 U 1 1 6123D850
@@ -315,11 +311,9 @@ F 3 "" H 6950 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 1250 7000 1250
-Wire Wire Line
-	6450 2150 6450 1250
-Text Label 6550 1450 0    70   ~ 0
-SLC
+	6450 2150 6450 1350
+Text Label 6550 1450 0    50   ~ 0
+CS
 Wire Wire Line
 	7000 1450 6550 1450
 $Comp
@@ -333,27 +327,16 @@ F 3 "~" H 7200 1550 50  0001 C CNN
 	1    7200 1550
 	1    0    0    -1  
 $EndComp
-Text Label 6550 1550 0    70   ~ 0
-SDA
-Wire Wire Line
-	7000 1550 6550 1550
-Text Label 6550 1650 0    70   ~ 0
-RESET
 Wire Wire Line
 	7000 1650 6550 1650
-Text Label 6550 1750 0    70   ~ 0
-DC
 Wire Wire Line
 	7000 1750 6550 1750
-Text Label 6550 1850 0    70   ~ 0
-SC
 Wire Wire Line
 	7000 1850 6550 1850
-Text Label 6550 1950 0    70   ~ 0
+Text Label 6550 1950 0    50   ~ 0
 BLK
 Wire Wire Line
 	7000 1950 6550 1950
-NoConn ~ 6550 1950
 Text Label 3800 2950 0    70   ~ 0
 GPIO33
 Text Label 5100 2950 2    70   ~ 0
@@ -383,10 +366,10 @@ Text Label 700  2400 0    50   ~ 0
 SCLK
 Wire Wire Line
 	700  2400 1600 2400
-Text Label 2650 2000 0    50   ~ 0
+Text Label 2850 2000 2    50   ~ 0
 SS_FPGA
 Wire Wire Line
-	2100 2000 2650 2000
+	2100 2000 2850 2000
 Text Label 700  2100 0    50   ~ 0
 SS_SPARE
 Wire Wire Line
@@ -411,7 +394,7 @@ Text Label 2850 2600 2    70   ~ 0
 T4
 Wire Wire Line
 	2100 2600 2850 2600
-Text Notes 5900 1150 0    197  ~ 0
+Text Notes 5950 1050 0    197  ~ 0
 NEEDS UPDATING
 $Comp
 L Connector_Generic:Conn_01x03 T3
@@ -570,10 +553,10 @@ I have altered the SAO pinout. \nPray I do not alter it any further.
 Text Notes 1750 3750 0    394  ~ 0
 RESET BUTTON!!!!
 $Comp
-L SwagBadge:1825910-6 SW?
+L SwagBadge:1825910-6 SW1
 U 1 1 6184E5E1
 P 1450 4250
-F 0 "SW?" H 1450 4615 50  0000 C CNN
+F 0 "SW1" H 1450 4615 50  0000 C CNN
 F 1 "1825910-6" H 1450 4524 50  0000 C CNN
 F 2 "SwagBadge:SW_1825910-6-4" H 1450 4250 50  0001 L BNN
 F 3 "" H 1450 4250 50  0001 L BNN
@@ -601,10 +584,10 @@ Wire Wire Line
 	950  4350 950  4250
 Connection ~ 950  4250
 $Comp
-L swag-badge-rescue:GND-power #PWR?
+L swag-badge-rescue:GND-power #PWR0105
 U 1 1 61857800
 P 2050 4500
-F 0 "#PWR?" H 2050 4250 50  0001 C CNN
+F 0 "#PWR0105" H 2050 4250 50  0001 C CNN
 F 1 "GND" H 2055 4327 50  0000 C CNN
 F 2 "" H 2050 4500 50  0001 C CNN
 F 3 "" H 2050 4500 50  0001 C CNN
@@ -620,4 +603,25 @@ Wire Wire Line
 Wire Wire Line
 	2050 4350 2050 4500
 Connection ~ 2050 4350
+Wire Wire Line
+	6450 1350 7000 1350
+Wire Wire Line
+	7000 1250 6950 1250
+Wire Wire Line
+	6950 1250 6950 1100
+Text Label 2850 2100 2    50   ~ 0
+CS
+Wire Wire Line
+	7000 1550 6950 1550
+Wire Wire Line
+	6950 1550 6950 1250
+Connection ~ 6950 1250
+Text Label 6550 1650 0    50   ~ 0
+DC
+Text Label 6550 1750 0    50   ~ 0
+MOSI
+Text Label 6550 1850 0    50   ~ 0
+SCLK
+Text Notes 6400 1150 0    50   ~ 0
+ANDREW DID SOME EDITING - PLEASE CHECK
 $EndSCHEMATC
