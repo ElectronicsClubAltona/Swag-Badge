@@ -214,48 +214,6 @@ Wire Wire Line
 Wire Wire Line
 	1000 1900 1600 1900
 $Comp
-L swag-badge-rescue:GND-power #PWR0103
-U 1 1 5F7D9ED9
-P 3750 3100
-F 0 "#PWR0103" H 3750 2850 50  0001 C CNN
-F 1 "GND" H 3755 2927 50  0000 C CNN
-F 2 "" H 3750 3100 50  0001 C CNN
-F 3 "" H 3750 3100 50  0001 C CNN
-	1    3750 3100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 2650 4850 2750
-Wire Wire Line
-	4850 2750 4750 2750
-Wire Wire Line
-	4250 2750 3750 2750
-Wire Wire Line
-	3750 2750 3750 3100
-Wire Wire Line
-	4750 2850 5100 2850
-Wire Wire Line
-	4750 2950 5100 2950
-Wire Wire Line
-	4250 2850 3800 2850
-Wire Wire Line
-	4250 2950 3800 2950
-$Comp
-L swag-badge-rescue:+3V3-power #PWR0113
-U 1 1 5F7D9EE7
-P 4850 2650
-F 0 "#PWR0113" H 4850 2500 50  0001 C CNN
-F 1 "+3V3" H 4865 2823 50  0000 C CNN
-F 2 "" H 4850 2650 50  0001 C CNN
-F 3 "" H 4850 2650 50  0001 C CNN
-	1    4850 2650
-	-1   0    0    -1  
-$EndComp
-Text Label 3800 2850 0    70   ~ 0
-SCL
-Text Label 5100 2850 2    70   ~ 0
-SDA
-$Comp
 L swag-badge-rescue:MountingHole-Mechanical H5
 U 1 1 5F7DCF4D
 P 7750 2950
@@ -337,21 +295,6 @@ Text Label 6550 1950 0    50   ~ 0
 BCK
 Wire Wire Line
 	7000 1950 6550 1950
-Text Label 3800 2950 0    70   ~ 0
-GPIO33
-Text Label 5100 2950 2    70   ~ 0
-GPIO32
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even P2
-U 1 1 612B786E
-P 4550 2950
-F 0 "P2" H 4600 3367 50  0000 C CNN
-F 1 "SAO_2+ SPI" H 4600 3276 50  0000 C CNN
-F 2 "SwagBadge:SAO_Header_10-Pin_0val_AltPins" H 4550 2950 50  0001 C CNN
-F 3 "~" H 4550 2950 50  0001 C CNN
-	1    4550 2950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 2300 1600 2300
 Wire Wire Line
@@ -374,22 +317,6 @@ Text Label 700  2100 0    50   ~ 0
 SS_SPARE
 Wire Wire Line
 	700  2100 1600 2100
-Text Label 4150 3150 2    50   ~ 0
-MISO
-Text Label 5100 3150 2    50   ~ 0
-MOSI
-Text Label 4150 3050 2    50   ~ 0
-SCLK
-Text Label 5100 3050 2    50   ~ 0
-SS_SPARE
-Wire Wire Line
-	5100 3050 4750 3050
-Wire Wire Line
-	5100 3150 4750 3150
-Wire Wire Line
-	4250 3050 4150 3050
-Wire Wire Line
-	4250 3150 4150 3150
 Text Label 2850 2600 2    70   ~ 0
 T4
 Wire Wire Line
@@ -476,81 +403,81 @@ F 3 "" H 8300 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 4300 4750 4300
+	5100 3300 4750 3300
 Wire Wire Line
-	4750 4400 5100 4400
+	4750 3400 5100 3400
 Wire Wire Line
-	4250 4400 4150 4400
+	4250 3400 4150 3400
 Wire Wire Line
-	4250 4300 4150 4300
-Text Label 5100 4300 2    50   ~ 0
+	4250 3300 4150 3300
+Text Label 5100 3300 2    50   ~ 0
 SS_FPGA
-Text Label 5100 4400 2    50   ~ 0
+Text Label 5100 3400 2    50   ~ 0
 MOSI
-Text Label 4150 4300 2    50   ~ 0
+Text Label 4150 3300 2    50   ~ 0
 SCLK
-Text Label 4150 4400 2    50   ~ 0
+Text Label 4150 3400 2    50   ~ 0
 MISO
-Text Label 3800 4200 0    70   ~ 0
+Text Label 3800 3200 0    70   ~ 0
 GPIO23
-Text Label 5100 4200 2    70   ~ 0
+Text Label 5100 3200 2    70   ~ 0
 GPIO18
 Wire Wire Line
-	4250 4200 3800 4200
+	4250 3200 3800 3200
 Wire Wire Line
-	4750 4200 5100 4200
-Text Label 3800 4100 0    70   ~ 0
+	4750 3200 5100 3200
+Text Label 3800 3100 0    70   ~ 0
 SCL
 Wire Wire Line
-	3800 4100 4250 4100
+	3800 3100 4250 3100
 Wire Wire Line
-	5100 4100 4750 4100
-Text Label 5100 4100 2    70   ~ 0
+	5100 3100 4750 3100
+Text Label 5100 3100 2    70   ~ 0
 SDA
 $Comp
 L power:GND #PWR0106
 U 1 1 6123C1F4
-P 3750 4550
-F 0 "#PWR0106" H 3750 4300 50  0001 C CNN
-F 1 "GND" H 3755 4377 50  0000 C CNN
-F 2 "" H 3750 4550 50  0001 C CNN
-F 3 "" H 3750 4550 50  0001 C CNN
-	1    3750 4550
+P 3750 3550
+F 0 "#PWR0106" H 3750 3300 50  0001 C CNN
+F 1 "GND" H 3755 3377 50  0000 C CNN
+F 2 "" H 3750 3550 50  0001 C CNN
+F 3 "" H 3750 3550 50  0001 C CNN
+	1    3750 3550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 4000 3750 4550
+	3750 3000 3750 3550
 Wire Wire Line
-	4250 4000 3750 4000
+	4250 3000 3750 3000
 Wire Wire Line
-	4850 4000 4750 4000
+	4850 3000 4750 3000
 Wire Wire Line
-	4850 3900 4850 4000
+	4850 2900 4850 3000
 $Comp
 L power:+3V3 #PWR0104
 U 1 1 6123713F
-P 4850 3900
-F 0 "#PWR0104" H 4850 3750 50  0001 C CNN
-F 1 "+3V3" H 4865 4073 50  0000 C CNN
-F 2 "" H 4850 3900 50  0001 C CNN
-F 3 "" H 4850 3900 50  0001 C CNN
-	1    4850 3900
+P 4850 2900
+F 0 "#PWR0104" H 4850 2750 50  0001 C CNN
+F 1 "+3V3" H 4865 3073 50  0000 C CNN
+F 2 "" H 4850 2900 50  0001 C CNN
+F 3 "" H 4850 2900 50  0001 C CNN
+	1    4850 2900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even P3
 U 1 1 61234CC2
-P 4550 4200
-F 0 "P3" H 4600 4617 50  0000 C CNN
-F 1 "SAO_3 + SPI" H 4600 4526 50  0000 C CNN
-F 2 "SwagBadge:SAO_Header_10-Pin_0val_AltPins" H 4550 4200 50  0001 C CNN
-F 3 "~" H 4550 4200 50  0001 C CNN
-	1    4550 4200
+P 4550 3200
+F 0 "P3" H 4600 3617 50  0000 C CNN
+F 1 "SAO_3 + SPI" H 4600 3526 50  0000 C CNN
+F 2 "SwagBadge:SAO_Header_10-Pin_0val_AltPins" H 4550 3200 50  0001 C CNN
+F 3 "~" H 4550 3200 50  0001 C CNN
+	1    4550 3200
 	-1   0    0    -1  
 $EndComp
 Text Notes 2550 5300 0    197  ~ 0
 I have altered the SAO pinout. \nPray I do not alter it any further.
-Text Notes 1750 3750 0    394  ~ 0
+Text Notes 2550 4500 0    197  ~ 0
 RESET BUTTON!!!!
 $Comp
 L SwagBadge:1825910-6 SW1
