@@ -365,13 +365,13 @@ $EndComp
 Wire Wire Line
 	2400 5950 2400 6050
 Text Label 2400 5750 0    50   ~ 0
-T5
-Text Label 2400 5850 0    50   ~ 0
-T7
-Text Label 2400 6550 0    50   ~ 0
-T3
-Text Label 2400 6450 0    50   ~ 0
 T4
+Text Label 2400 5850 0    50   ~ 0
+T3
+Text Label 2400 6550 0    50   ~ 0
+T7
+Text Label 2400 6450 0    50   ~ 0
+T5
 Wire Wire Line
 	2400 6650 2400 6750
 $Comp
@@ -554,12 +554,12 @@ ANDREW DID SOME EDITING - PLEASE CHECK
 Text Label 3100 2400 2    50   ~ 0
 BCK
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even P2-1
+L Connector_Generic:Conn_02x03_Odd_Even P2
 U 1 1 613AA4EE
 P 4450 2050
-F 0 "P2-1" H 4500 2367 50  0000 C CNN
+F 0 "P2" H 4500 2367 50  0000 C CNN
 F 1 "SAO_2" H 4500 2276 50  0000 C CNN
-F 2 "SwagBadge:SAO_Header_6-Pin_Oval" H 4450 2050 50  0001 C CNN
+F 2 "SwagBadge:SAO_Header_6-Pin_Oval_AltPins" H 4450 2050 50  0001 C CNN
 F 3 "~" H 4450 2050 50  0001 C CNN
 	1    4450 2050
 	1    0    0    -1  
