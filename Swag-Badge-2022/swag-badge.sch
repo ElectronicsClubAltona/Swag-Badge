@@ -204,7 +204,7 @@ T2
 Wire Wire Line
 	2100 2300 2850 2300
 Wire Wire Line
-	2100 2400 2850 2400
+	2100 2400 3100 2400
 Wire Wire Line
 	2100 2500 2850 2500
 Wire Wire Line
@@ -334,7 +334,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1850 6550 1850
 Text Label 6550 1950 0    50   ~ 0
-BLK
+BCK
 Wire Wire Line
 	7000 1950 6550 1950
 Text Label 3800 2950 0    70   ~ 0
@@ -624,4 +624,6 @@ Text Label 6550 1850 0    50   ~ 0
 SCLK
 Text Notes 6400 1150 0    50   ~ 0
 ANDREW DID SOME EDITING - PLEASE CHECK
+Text Label 3100 2400 2    50   ~ 0
+BCK
 $EndSCHEMATC
