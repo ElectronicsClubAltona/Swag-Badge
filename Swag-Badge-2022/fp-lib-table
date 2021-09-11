@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name SwagBadge)(type KiCad)(uri ${KIPRJMOD}/libs)(options "")(descr ""))
   (lib (name libs)(type KiCad)(uri E:/Dropbox/GitHub/Swag-Badge/libs)(options "")(descr "")(disabled))
+  (lib (name RocklingLib)(type KiCad)(uri /home/bob/Git/CCHS/OHMC2022/Swag-Badge/Rockling-LayoutTest/RocklingLib.pretty)(options "")(descr ""))
 )
