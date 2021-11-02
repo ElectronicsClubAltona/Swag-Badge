@@ -92,7 +92,7 @@ U 1 1 5F6BCBBA
 P 6500 1350
 F 0 "P1" H 6550 1750 50  0000 C CNN
 F 1 "SAO_1 + SPI" H 6550 1650 50  0000 C CNN
-F 2 "SwagBadge:SAO_Header_6-Pin_Oval_AltPins" H 6500 1350 50  0001 C CNN
+F 2 "SwagBadge:SAO_Header_10-Pin_0val_AltPins" H 6500 1350 50  0001 C CNN
 F 3 "~" H 6500 1350 50  0001 C CNN
 	1    6500 1350
 	1    0    0    -1  
@@ -607,7 +607,7 @@ U 1 1 61234CC2
 P 6500 2900
 F 0 "P3" H 6550 3250 50  0000 C CNN
 F 1 "SAO_3" H 6550 3150 50  0000 C CNN
-F 2 "SwagBadge:SAO_Header_10-Pin_0val_AltPins" H 6500 2900 50  0001 C CNN
+F 2 "SwagBadge:SAO_Header_6-Pin_Oval_AltPins" H 6500 2900 50  0001 C CNN
 F 3 "~" H 6500 2900 50  0001 C CNN
 	1    6500 2900
 	1    0    0    -1  
