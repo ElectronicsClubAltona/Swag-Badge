@@ -1,4 +1,4 @@
-update=03-Nov-21 5:23:28 PM
+update=03-Nov-21 6:54:34 PM
 version=1
 last_client=kicad
 [general]
@@ -248,6 +248,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=SAO Touch
+Clearance=0.5
+TrackWidth=0.3
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Touch
 Clearance=0.5
 TrackWidth=0.3
