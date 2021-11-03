@@ -267,8 +267,6 @@ Text Label 2850 2050 0    50   ~ 0
 SCLK_0
 Wire Wire Line
 	2850 2050 3800 2050
-Text Label 5050 1650 2    50   ~ 0
-SS_FPGA
 Wire Wire Line
 	4300 1650 5050 1650
 Text Label 2850 1750 0    50   ~ 0
@@ -632,8 +630,6 @@ Text Label 5050 1450 2    50   ~ 0
 MOSI_1
 Wire Wire Line
 	2850 1550 3800 1550
-Text Notes 2850 1550 0    50   ~ 0
-?????
-Text Notes 5100 1650 0    50   ~ 0
-?????
+Text Label 2850 1550 0    50   ~ 0
+SS_FPGA
 $EndSCHEMATC

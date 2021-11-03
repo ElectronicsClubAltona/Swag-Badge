@@ -1,4 +1,4 @@
-update=12-Oct-20 10:17:56 AM
+update=03-Nov-21 5:23:28 PM
 version=1
 last_client=kicad
 [general]
@@ -239,6 +239,17 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.25
+TrackWidth=0.3
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Touch
+Clearance=0.5
 TrackWidth=0.3
 ViaDiameter=0.8
 ViaDrill=0.4
